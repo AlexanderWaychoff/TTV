@@ -24,6 +24,9 @@ namespace TTV
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      //"~/Content/bootstrap.min.css",
+                      //"~/Content/flatly.bootstrap.css",
+                      //"~/Content/flatly.bootstrap.min.css",
                       "~/Content/site.css"));
         }
     }
